@@ -48,8 +48,8 @@ export default function Contact() {
       >
         <h1 className="text-4xl font-bold text-blue-600 mb-4">Get in Touch</h1>
         <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-          Have a project in mind or want to collaborate? I'd love to hear from you.
-          Let's create something amazing together.
+          Have a project in mind or want to collaborate? I&apos;d love to hear from you.
+          Let&apos;s create something amazing together.
         </p>
       </motion.div>
 

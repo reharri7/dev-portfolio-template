@@ -4,6 +4,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { ThemeProvider } from '@/components/theme-provider';
+import {Toaster} from "sonner";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -31,6 +32,17 @@ export default function RootLayout({
             <main className="flex-grow">{children}</main>
             <Footer />
           </div>
+          <Toaster
+            theme={"dark"}
+            position={"bottom-center"}
+            toastOptions={{
+              classNames: {
+                error: 'bg-red-400',
+                success: 'bg-emerald-400',
+                warning: 'bg-yellow-400',
+                info: 'bg-blue-400',
+              },
+            }}/>
         </ThemeProvider>
       </body>
     </html>
