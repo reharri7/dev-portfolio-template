@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { ArrowRight, Github, Linkedin } from 'lucide-react';
+import {motion} from 'framer-motion';
+import {ArrowRight, Github, Linkedin} from 'lucide-react';
 import Link from 'next/link';
 
 export default function Hero() {
@@ -45,7 +45,7 @@ export default function Hero() {
           href="/contact"
           className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors"
         >
-          Let's work together
+          Let&apos;s work together
           <ArrowRight className="w-5 h-5" />
         </Link>
       </motion.div>

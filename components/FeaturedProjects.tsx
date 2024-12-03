@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
+import {motion} from 'framer-motion';
+import {ExternalLink, Github} from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -39,8 +39,8 @@ export default function FeaturedProjects() {
         {projects.map((project, index) => (
           <motion.div
             key={project.title}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{opacity: 0, y: 20}}
+            animate={{opacity: 1, y: 0}}
             transition={{ duration: 0.5, delay: index * 0.2 }}
             className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg"
           >

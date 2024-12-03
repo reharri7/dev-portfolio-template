@@ -1,8 +1,8 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import {motion} from 'framer-motion';
 import Image from 'next/image';
-import { Code, Database, Globe, Layout, Server, Sparkles } from 'lucide-react';
+import {Code, Database, Globe, Layout, Server, Sparkles} from 'lucide-react';
 
 const skills = [
   {
@@ -40,7 +40,7 @@ export default function About() {
         <div>
           <h1 className="text-4xl font-bold text-blue-600 mb-6">About Me</h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">
-            Hi! I'm John Doe, a passionate full-stack developer with 5 years of experience
+            Hi! I&apos;m John Doe, a passionate full-stack developer with 5 years of experience
             in building web applications. I specialize in creating responsive,
             user-friendly websites using modern technologies.
           </p>
@@ -77,9 +77,9 @@ export default function About() {
             a passion for creating innovative digital solutions.
           </p>
           <p className="text-gray-600 dark:text-gray-300">
-            Over the years, I've had the privilege of working with startups and
+            Over the years, I&apos;ve had the privilege of working with startups and
             established companies, helping them build scalable web applications
-            and implement modern development practices. I'm constantly learning
+            and implement modern development practices. I&apos;m constantly learning
             and exploring new technologies to stay at the forefront of web development.
           </p>
         </div>
